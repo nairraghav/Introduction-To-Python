@@ -3,7 +3,7 @@ The purpose of this repository is to go through the basics and fundamentals of P
 
 
 # Topics
-1. Environment Setup
+1. [Environment Setup](lessons/lesson01-environment-setup)
     * Installation
         * Windows
         * Mac
@@ -16,7 +16,7 @@ The purpose of this repository is to go through the basics and fundamentals of P
         * PyCharm (recommended)
     * Virtual Environment
 
-2. Python Basics
+2. [Python Basics](lessons/lesson02-python-basics)
     * Variables
     * Types
         * Boolean
@@ -36,7 +36,7 @@ The purpose of this repository is to go through the basics and fundamentals of P
         * For Loop
         * While Loop
 
-3. Functions & Testing
+3. [Functions & Testing](lessons/lesson03-functions-testing)
     * Function Basics
         * Parameters
             * args
@@ -54,7 +54,7 @@ The purpose of this repository is to go through the basics and fundamentals of P
             * Mocks
         * Integration Tests
 
-4. Packages, I/O, Exceptions
+4. [Packages, I/O, Exceptions](lessons/lesson04-packages-io-exceptions)
     * Package & Module Basics
         * Local Modules
         * Local Packages
@@ -74,7 +74,7 @@ The purpose of this repository is to go through the basics and fundamentals of P
         * Try/Except
         * Handling Exceptions
     
-5. Object Oriented Programming
+5. [Object Oriented Programming](lessons/lesson05-object-oriented-programming)
     * Classes
         * \_\_init__
             * self
@@ -88,7 +88,7 @@ The purpose of this repository is to go through the basics and fundamentals of P
             * Methods
         * super()
         
-6. Databases
+6. [Databases](lessons/lesson06-databases)
     * PostgreSQL
         * What is PostgreSQL
         * Common Syntax
@@ -98,7 +98,7 @@ The purpose of this repository is to go through the basics and fundamentals of P
         * Common Syntax
         * pymongo
 
-7. REST Requests
+7. [REST Requests](lessons/lesson07-rest-flask)
     * What is REST?
     * Requests
         * GET
@@ -110,26 +110,26 @@ The purpose of this repository is to go through the basics and fundamentals of P
         * Basics (How To Use)
         * Writing CRUD Services
 
-8. Django
+8. [Django](lessons/lesson08-django)
     * TBD
 
 # Optional Non-Python Specific Learning
-1. Git
+1. [Git](optional_lessons/lesson01-git)
     * Cloning
     * Pulling
     * Pushing
     * Branches
     * Forks
 
-2. Bash
+2. [Bash](optional_lessons/lesson02-bash)
     * Common Commands
 
-3. Makefiles
+3. [Makefiles](optional_lessons/lesson03-make)
     * Why use make?
     * Installation
         * Windows
 
-4. Docker
+4. [Docker](optional_lessons/lesson04-docker)
     * What is Docker?
     * Installation
         * Windows
