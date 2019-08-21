@@ -142,4 +142,6 @@ The purpose of this repository is to go through the basics and fundamentals of P
 
 
 ## Author
-Raghav "Ron" Nair <nairraghav@hotmail.com>
+Raghav "Ron" Nair
+
+<nairraghav@hotmail.com>
