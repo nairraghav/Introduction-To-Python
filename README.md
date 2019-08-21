@@ -1,144 +1,28 @@
 # Introduction-To-Python
-The purpose of this repository is to go through the basics and fundamentals of Python with some examples and assignments
+The purpose of this repository is to go through the basics and fundamentals of Python with some examples and assignments.
+Within this repository, we have two different types of lessons:
+* [Python Lessons](lessons)
+* [Optional Non-Python Lessons](optional_lessons)
+
+Within the Python Lessons curriculum, we go through various topics starting from setting up a Python environment all the
+way up to using databases and web application frameworks to create backend applications.
+
+In the Optional Non-Python Lessons curriculum, I have chosen specific topics to discuss which I have found to be relevant
+in my experience as a Software Engineer and will continue to add to, if appropriate.
+
+# Goals
+My goal with this repository is to help introduce programming and more specifically Python to anyone who is interested.
+These modules have been created with non-programmers in mind. Before each topic, I will try to specify if an optional
+lesson may be beneficial to know before the topic. For example, it may be useful to know the basics of git, bash, and
+makefiles before jumping into using Flask. 
 
 
-# Topics
-1. [Environment Setup](lessons/lesson01-environment-setup)
-    * Installation
-        * Windows
-        * Mac
-    * Python Intro
-        * Version (3+)
-    * pip
-    * Text Editor / IDE
-        * Sublime
-        * Visual Code
-        * PyCharm (recommended)
-    * Virtual Environment
-
-2. [Python Basics](lessons/lesson02-python-basics)
-    * Variables
-    * Types
-        * Boolean
-        * String
-        * Int
-        * Float
-    * Data Structures
-        * List
-        * Tuple
-        * Set
-        * Dictionary
-    * Logic
-        * If Statement
-            * not
-            * and
-            * or
-        * For Loop
-        * While Loop
-
-3. [Functions & Testing](lessons/lesson03-functions-testing)
-    * Function Basics
-        * Parameters
-            * args
-            * kwargs
-            * argparse
-            * Environment Variables
-        * Return
-        * Docstring
-        * \_\_main__
-        * Recursion
-    * Pytest
-        * Why Test?
-        * Unit Tests
-            * Coverage
-            * Mocks
-        * Integration Tests
-
-4. [Packages, I/O, Exceptions](lessons/lesson04-packages-io-exceptions)
-    * Package & Module Basics
-        * Local Modules
-        * Local Packages
-            \_\_init__ 
-        * Imports
-    * Input
-        * User Input
-        * Reading From Files
-            * .txt
-            * .csv
-            * .json
-                * What is JSON
-    * Output
-        * Printing
-        * Logging 
-    * Exceptions
-        * Try/Except
-        * Handling Exceptions
-    
-5. [Object Oriented Programming](lessons/lesson05-object-oriented-programming)
-    * Classes
-        * \_\_init__
-            * self
-            * Attributes
-                * Properties
-                * Setter (Or Lack Thereof)
-    * Inheritance
-        * Subclassing
-        * Overriding
-            * \_\_init__
-            * Methods
-        * super()
-        
-6. [Databases](lessons/lesson06-databases)
-    * PostgreSQL
-        * What is PostgreSQL
-        * Common Syntax
-        * psycopg
-    * Mongo
-        * What is MongoDB
-        * Common Syntax
-        * pymongo
-
-7. [REST Requests](lessons/lesson07-rest-flask)
-    * What is REST?
-    * Requests
-        * GET
-        * PUT
-        * POST
-        * DELETE
-    * Flask
-        * Install / Setup
-        * Basics (How To Use)
-        * Writing CRUD Services
-
-8. [Django](lessons/lesson08-django)
-    * TBD
-
-# Optional Non-Python Specific Learning
-1. [Git](optional_lessons/lesson01-git)
-    * Cloning
-    * Pulling
-    * Pushing
-    * Branches
-    * Forks
-
-2. [Bash](optional_lessons/lesson02-bash)
-    * Common Commands
-
-3. [Makefiles](optional_lessons/lesson03-make)
-    * Why use make?
-    * Installation
-        * Windows
-
-4. [Docker](optional_lessons/lesson04-docker)
-    * What is Docker?
-    * Installation
-        * Windows
-        * Mac
-    * Dockerfile
-    * build, tag, push
-    * Running Container
-        * From CMD
-        * Interactive Terminal
+# Feedback
+This repository should be considered living as I plan to continue adding topics (python or not) and am very open to
+feedback received on what can be improved or what topics should be added. For the time being, please submit these
+requests via a Pull Request and create a directory for the topic you think I should (in the appropriate section). If you
+feel that it does not fit within "Python Lessons" or "Optional Non-Python Lessons", create a new one in the root directory.
+Please justify why you think a topic would be relevant and why you added it in the subsection chosen. 
 
 
 ## Author
