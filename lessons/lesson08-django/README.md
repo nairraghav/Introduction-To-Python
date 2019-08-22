@@ -7,4 +7,4 @@
 \
 \
 \
-[Go Back: Lessons](../../lessons#python-lessons)
+[Go Back: Lessons](../../lessons/README.md)

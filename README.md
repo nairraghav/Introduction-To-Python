@@ -1,8 +1,8 @@
 # Introduction-To-Python
 The purpose of this repository is to go through the basics and fundamentals of Python with some examples and assignments.
 Within this repository, we have two different types of lessons:
-* [Python Lessons](lessons)
-* [Optional Non-Python Lessons](optional_lessons)
+* [Python Lessons](lessons/README.md)
+* [Optional Non-Python Lessons](optional_lessons/README.md)
 
 Within the Python Lessons curriculum, we go through various topics starting from setting up a Python environment all the
 way up to using databases and web application frameworks to create backend applications.
