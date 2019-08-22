@@ -40,8 +40,8 @@ deactivate
 \
 \
 \
-[Up Next: Lesson 2 - Python Basics](../lesson02-python-basics)
+[Up Next: Lesson 1 - Python Interpreter](python-interpreter.md)
 \
 \
 \
-[Go Back: Lesson 1 - Environment Setup](../README.md)
+[Go Back: Lesson 1 - Environment Setup](README.md)

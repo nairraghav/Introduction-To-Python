@@ -14,4 +14,4 @@ Certain text editors like the ones mentioned above can download plugins which ca
 \
 \
 \
-[Go Back: Lesson 1 - Environment Setup](../README.md)
+[Go Back: Lesson 1 - Environment Setup](README.md)

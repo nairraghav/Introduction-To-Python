@@ -18,4 +18,4 @@ pip uninstall <package-name>
 \
 \
 \
-[Go Back: Lesson 1 - Environment Setup](../README.md)
+[Go Back: Lesson 1 - Environment Setup](README.md)

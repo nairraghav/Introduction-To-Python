@@ -8,4 +8,4 @@
 \
 \
 \
-[Go Back: Lesson 2 - Types](../lesson02-python-basics/types.md)
+[Go Back: Lesson 2 - Types](types.md)

@@ -44,4 +44,4 @@ for convenience:
 \
 \
 \
-[Go Back: Lesson 1 - Environment Setup](../README.md)
+[Go Back: Lesson 1 - Environment Setup](README.md)

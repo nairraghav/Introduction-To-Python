@@ -10,6 +10,7 @@
     * PyCharm (recommended)
 * [pip](pip.md)
 * [Virtual Environment](virtual-environment.md)
+* [Python Interpreter](python-interpreter.md)
 \
 \
 \
