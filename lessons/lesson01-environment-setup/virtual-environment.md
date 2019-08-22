@@ -44,4 +44,4 @@ deactivate
 \
 \
 \
-[Go Back: Lesson 1 - Environment Setup](../lesson01-environment-setup)
+[Go Back: Lesson 1 - Environment Setup](../README.md)

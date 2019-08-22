@@ -16,4 +16,4 @@ final major release of Python2.x and the end of life has been [confirmed](https:
 \
 \
 \
-[Go Back: Lesson 1 - Environment Setup](../lesson01-environment-setup)
+[Go Back: Lesson 1 - Environment Setup](../README.md)
