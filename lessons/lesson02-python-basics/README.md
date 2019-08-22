@@ -1,16 +1,16 @@
 # Python Basics
-* Variables
-* Types
+* [Variables](variables.md)
+* [Types](types.md)
     * Boolean
     * String
     * Int
     * Float
-* Data Structures
+* [Data Structures](data-structures.md)
     * List
     * Tuple
     * Set
     * Dictionary
-* Logic
+* [Logic](logic.md)
     * If Statement
         * not
         * and
@@ -21,7 +21,8 @@
 \
 \
 \
+
 \
 \
 \
-[Go Back To Lessons](../../lessons#python-lessons)
+[Go Back: Lessons](../../lessons#python-lessons)

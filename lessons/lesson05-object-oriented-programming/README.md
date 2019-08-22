@@ -1,4 +1,4 @@
- # Object Oriented Programming
+# Object Oriented Programming
 * Classes
     * \_\_init__
         * self
@@ -18,4 +18,4 @@
 \
 \
 \
-[Go Back To Lessons](../../lessons#python-lessons)
+[Go Back: Lessons](../../lessons#python-lessons)

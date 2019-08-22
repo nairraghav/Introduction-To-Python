@@ -14,7 +14,8 @@ pip uninstall \<package-name\>
 \
 \
 \
+[Up Next: Virtual Environment](virtual-environment.md)
 \
 \
 \
-[Go Back To Lesson 1: Environment Setup](../lesson01-environment-setup)
+[Go Back: Lesson 1 - Environment Setup](../lesson01-environment-setup)

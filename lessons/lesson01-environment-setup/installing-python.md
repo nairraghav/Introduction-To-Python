@@ -40,7 +40,8 @@ for convenience:
 \
 \
 \
+[Up Next Lesson: Text Editors / IDE](text-editor.md)
 \
 \
 \
-[Go Back To Lesson 1: Environment Setup](../lesson01-environment-setup)
+[Go Back: Lesson 1 - Environment Setup](../lesson01-environment-setup)

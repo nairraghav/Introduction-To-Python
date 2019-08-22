@@ -40,7 +40,8 @@ deactivate
 \
 \
 \
+[Up Next: Lesson 2 - Python Basics](../lesson02-python-basics)
 \
 \
 \
-[Go Back To Lesson 1: Environment Setup](../lesson01-environment-setup)
+[Go Back: Lesson 1 - Environment Setup](../lesson01-environment-setup)

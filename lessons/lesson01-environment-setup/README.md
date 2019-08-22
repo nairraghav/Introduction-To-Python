@@ -1,20 +1,21 @@
- # Environment Setup
- * [Python Intro](lesson01-environment-setup#what-is-python)
+# Environment Setup
+* [Python Intro](what-is-python.md)
     * Version (3+)
-* [Installation](lesson01-environment-setup#installing-python)
+* [Installation](installing-python.md)
     * Windows
     * Mac
-* [Text Editor / IDE](lesson01-environment-setup#text-editor--ide)
+* [Text Editor / IDE](text-editor.md)
     * Sublime
     * Visual Code
     * PyCharm (recommended)
-* [pip](lesson01-environment-setup#pip)
-* [Virtual Environment](lesson01-environment-setup#virtual-environment)
+* [pip](pip.md)
+* [Virtual Environment](virtual-environment.md)
 \
 \
 \
 \
+[Up Next: Lesson 1 - Python Intro](what-is-python.md)
 \
 \
 \
-[Go Back To Lessons](../../lessons#python-lessons)
+[Go Back: Lessons](../../lessons#python-lessons)

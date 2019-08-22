@@ -1,4 +1,4 @@
-# Text Editor / IDE
+# Text Editors / IDE
 To start writing Python code, you will need a text editor at the very least. You can even start writing in Notepad. For
 coding purposes, programs like [Notepad++](https://notepad-plus-plus.org/), [Sublime](https://www.sublimetext.com/), and 
 [Visual Studio Code](https://code.visualstudio.com/) are very popular for tasks like this. If you are planning to code a
@@ -10,7 +10,8 @@ Certain text editors like the ones mentioned above can download plugins which ca
 \
 \
 \
+[Up Next: Lesson 1 - pip](pip.md)
 \
 \
 \
-[Go Back To Lesson 1: Environment Setup](../lesson01-environment-setup)
+[Go Back: Lesson 1 - Environment Setup](../lesson01-environment-setup)

@@ -1,4 +1,4 @@
- # Packages, IO, & Exceptions
+# Packages, IO, & Exceptions
 * Package & Module Basics
     * Local Modules
     * Local Packages
@@ -24,4 +24,4 @@
 \
 \
 \
-[Go Back To Lessons](../../lessons#python-lessons)
+[Go Back: Lessons](../../lessons#python-lessons)
