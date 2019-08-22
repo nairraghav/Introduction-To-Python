@@ -4,7 +4,6 @@
     * Boolean
     * String
     * Int
-    * Float
 * [Data Structures](data-structures.md)
     * List
     * Tuple
