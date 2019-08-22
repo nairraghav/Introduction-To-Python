@@ -5,16 +5,16 @@ Welcome to the suggested part of the course where we will go over various topics
 
 # Topics
 1. [Environment Setup](lesson01-environment-setup)
+    * Python Intro
+        * Version (3+)
     * Installation
         * Windows
         * Mac
-    * Python Intro
-        * Version (3+)
-    * pip
     * Text Editor / IDE
         * Sublime
         * Visual Code
         * PyCharm (recommended)
+    * pip
     * Virtual Environment
 
 2. [Python Basics](lesson02-python-basics)
