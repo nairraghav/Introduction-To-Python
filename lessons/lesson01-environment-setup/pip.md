@@ -4,11 +4,11 @@ packages come with the default installation of Python, you will find that you ne
 the use of pip. pip should come installed with Python and is very easy to use in the command line. 
 
 ```bash
-pip install \<package-name\>
+pip install <package-name>
 ```
 
 ```bash
-pip uninstall \<package-name\>
+pip uninstall <package-name>
 ```
 \
 \

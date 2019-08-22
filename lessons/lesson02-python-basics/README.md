@@ -21,7 +21,7 @@
 \
 \
 \
-
+[Up Next: Lesson 2 - Variables](variables.md)
 \
 \
 \
