@@ -50,7 +50,7 @@ space so that we don't have a million variables, if we're not using them. To del
 ```python
 x = 5           # x = 5
 
-del(x)
+del x
 
 x               # Error: x doesn't exist anymore
 ```
