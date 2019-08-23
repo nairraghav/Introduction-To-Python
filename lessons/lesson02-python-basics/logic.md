@@ -8,4 +8,4 @@
 \
 \
 \
-[Go Back: Lesson 2 - Data Structures](data-structures.md)
+[Go Back: Lessons 2 - Python Basics](README.md)

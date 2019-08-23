@@ -62,4 +62,4 @@ x *= 2                  # equivalent to x = x * 2 (x has a value of 8)
 \
 \
 \
-[Go Back: Lesson 2 - Variables](variables.md)
+[Go Back: Lessons 2 - Python Basics](README.md)

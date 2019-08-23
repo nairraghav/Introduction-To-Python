@@ -81,4 +81,4 @@ that your data structure is going to change, use a list.
 \
 \
 \
-[Go Back: Lesson 2 - Types](types.md)
+[Go Back: Lessons 2 - Python Basics](README.md)
