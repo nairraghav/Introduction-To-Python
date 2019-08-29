@@ -69,10 +69,48 @@ is to create a new tuple and change the value that you want. You probably don't 
 that your data structure is going to change, use a list.
 
 ## Set
+A `set` is very similar to a list except that it cannot contain any duplicate items. It is also unordered so that when
+adding a new element, there is no index that it retains which the user controls. These several features (or lack thereof)
+are usually the only reasons why  someone would use a set over a list. We'll go over how to create a list and add to it:
 
+```python
+x = set()                   # create the set
+
+x.add(1)                    # {1}
+x.add(2)                    # {2}
+x.add("three")              # {1, 2, "three"}
+x.add(2)                    # {1, 2, "three"}  2 is not re-added since elements in a set must be unique
+``` 
 
 ## Dictionary
+A `dictionary` is a data structure that is based on a key/value pair. For each element in a dictionary, there is a key
+and value associated with it. There are no strict requirements on what types the key/values must be, just that keys should
+be unique (value do not need to be). Dictionaries are very useful and perform well when looking for items in a data structure
+since you can look it up by the key value rather than an abstract index value. 
 
+```python
+x = {}                      # Create the dictionary
+
+x[0] = True                 # {0: True}
+
+x['a'] = 'b'                # {0: True, 'a': 'b'}
+
+x[0]                        # True
+
+x.get('a')                  # 'b'
+
+```
+
+
+In all of the examples above, I have shown the elements within a data structure to be one of the types previously shown.
+We can go a step further and use data structures as elements within other data structures. What this means is that we can
+collect multiples lists within a dictionary (or any other permutation of data structures).
+
+```python
+
+person = {'name': "King Arthur", 'enemies_defeated': ['Black Knight', 'Troll'],
+          'knows_airspeed_velocity_of_an_unladen_swallow': True}
+```
 \
 \
 \
