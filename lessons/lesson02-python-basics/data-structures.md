@@ -4,18 +4,18 @@ the last module, we want to have a good way to organize this data so that we can
 efficient manner. 
 
 ## List
-As the name suggests, a `list` is a data structure which can contain various data types. It's purpose is to contain
-multiple data at the same time. It is an ordered data structure, meaning that whatever order items are added to the
-list will stay in that order unless modified. Each element in the list is associated with an index, which specifies
-where in the list it stays. In python (and many other programming languages), indexing starts at 0. This means that
-the first item in the list is at the 0th index. Thus, the size of a list is the last item's index + 1. Let's take a
-look at how we can initialize a list!
+As the name suggests, a `list` is a data structure which can contain various data types. Its purpose is to contain
+multiple data objects at the same time. It is an ordered data structure, meaning that whatever order items are added to
+the list will stay in that order unless modified. Each element in the `list` is associated with an index, which specifies
+where in the list it stays. In Python (and many other programming languages), indexing starts at 0. This means that
+the first item in the list is at the 0th index. Thus, the size of a `list` is the last item's index + 1. Let's take a
+look at how we can initialize a `list`!
 
 ```python
 x = [1, 2, 3]               # this is a list of 3 items where 1 is the 1st item, 2 is the 2nd item, 3 is the 3rd
 ```
 
-We can get a specific item from a list by it's index by using the square brackets after the list variable's name
+We can get a specific item from a `list` by it's index by using the square brackets after the list variable's name
 
 ```python
 x = [1, 2, 3]
@@ -23,7 +23,7 @@ x = [1, 2, 3]
 x[0]                        # This will return 1 since 1 is in the 0th index of the list
 ```
 
-Python also allows us the flexibility of having various data types in the same list
+Python also allows us the flexibility of having various data types in the same `list`
 
 ```python
 x = [1, "this is a string", False]
@@ -37,7 +37,7 @@ x[2]                        # False
 x[3]                        # Error: You cannot access an index that has not been set
 ```
 
-Once item's have been in a set, we can re-write or even delete them
+Once items are initialized in a `list`, we can re-write or even delete them
 
 ```python
 x = [1, 2, 3]
@@ -50,9 +50,9 @@ x[2]                        # Error: Cannot access this index since it doesn't e
 ```
 
 ## Tuple
-A `tuple` is very similar to a list except that it is immutable. Immutable means that it cannot be change. Once a tuple
+A `tuple` is very similar to a list except that it is immutable. Immutable means that it cannot be change. Once a `tuple`
 has it's items set, we are not able to modify them by index. Tuples are also very similar to lists when it comes to
-creating them. Let's take a look at how we can create a tuple!
+creating them. Let's take a look at how we can create a `tuple`!
 
 ```python
 x = (1, "tuple item", True)              

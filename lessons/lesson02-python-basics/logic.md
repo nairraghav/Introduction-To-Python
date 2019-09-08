@@ -3,8 +3,8 @@ The basics of any program (python or not) is some basic logic that can be applie
 advanced programs. We will take a look at some of the basic logic flows.
     
 ## If Statement
-An `if` statement evaluates an expression to `True` or `False`. If the result of the expression is true, we do
-something. We can also make it do something in the False scenario.
+An `if` statement evaluates an expression to `True` or `False`. If the result of the expression is `True`, we do
+something. We can also make it do something in the `False` scenario.
 
 ```python
 x = 5
@@ -78,8 +78,9 @@ c is not a                          # This returns False since c and a point to 
 
 ### and
 `and` is a keyword is used to conjoin to expressions and return a value for their joint result. The result will only
-return True if the expressions being conjoined by the `and` are all True as well. If any of those individual expressions
-return False, the `and` instantly results in False. As a note, we can use parenthesis to more easily read our expressions.
+return `True` if the expressions being conjoined by the `and` are all `True` as well. If any of those individual
+expressions return `False`, the `and` instantly results in `False`. As a note, we can use parenthesis to more easily
+read our expressions.
 
 ```python
 a = 1
@@ -98,8 +99,8 @@ else:
 ```
 
 ### or
-`or` is very similar to `and` except that we only need one of the expressions to return True for the entire expression
-to return True.
+`or` is very similar to `and` except that we only need one of the expressions to return `True` for the entire expression
+to return `True`.
 
 ```python
 a = 1
@@ -140,14 +141,16 @@ for fruit in fruits:                # We will iterate through the fruits object 
     print(fruit)                    # This has the same functionality as above
 ```
 
-As you can see, using `for` loops is very useful in writing neater and more readable code while giving the same functionality.
+As you can see, using `for` loops is very useful in writing neater and more readable code while giving the same
+functionality.
 
 
 ## While Loop
 A `while` loop is just like a for loop except instead of giving a set amount of iterations to go through, it will enter
-the loop while a given expression expression is True. The iterations will continue until repeating the block of logic
-until the expression returns False. When using while loops, you need to be very careful because if that expression never
-resolves to end, the code will continue to run infinitely. The process will never end until you close/terminate the program.
+the loop while a given expression expression is `True`. The iterations will continue until repeating the block of logic
+until the expression returns `False`. When using while loops, you need to be very careful because if that expression
+never resolves to end, the code will continue to run infinitely. The process will never end until you close/terminate
+the program.
 
 ```python
 x = 0
@@ -159,10 +162,10 @@ print(x)                            # This will print 5 since that is when x < 5
 ```
 
 In terms of pure functionality, you will generally be able to substitute `for` loops with `while` loops and vice versa.
-The key is understand when to use each which type of loop and what allows for it to be the most understandable. Generally,
-`for` loops are preferred for iterative needs because you will usually know how many times an iteration must be done,
-they are much more readable and there is typically less risk when it comes to having infinitely running loops as there
-is usually a well defined end.  
+The key is understand when to use each which type of loop and what allows for it to be the most understandable.
+Generally, `for` loops are preferred for iterative needs because you will usually know how many times an iteration must
+be done, they are much more readable and there is typically less risk when it comes to having infinitely running loops
+as there is usually a well defined end.
 \
 \
 \
