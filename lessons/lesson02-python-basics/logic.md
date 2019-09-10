@@ -170,7 +170,7 @@ as there is usually a well defined end.
 \
 \
 \
-[Up Next: Lesson 2 - Running Python Files](running-python-scripts.md)
+[Up Next: Lesson 3 - Functions & Testing](../lesson03-functions-testing/README.md)
 \
 \
 \

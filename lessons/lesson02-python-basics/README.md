@@ -1,4 +1,5 @@
 # Python Basics
+* [Running A Python File](running-python-scripts.md)
 * [Variables](variables.md)
 * [Types](types.md)
     * Boolean
@@ -16,7 +17,6 @@
         * or
     * For Loop
     * While Loop
-* [Running A Python File](running-python-scripts.md)
 \
 \
 \
