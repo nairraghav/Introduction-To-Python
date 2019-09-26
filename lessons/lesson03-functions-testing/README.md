@@ -1,15 +1,15 @@
 # Functions & Testing    
-* Function Basics
+* [Function Basics](function-basics.md)
+    * Docstring
     * Parameters
         * args
         * kwargs
         * argparse
         * Environment Variables
     * Return
-    * Docstring
     * \_\_main__
     * Recursion
-* Pytest
+* [Pytest](pytest.md)
     * Why Test?
     * Unit Tests
         * Coverage
@@ -19,7 +19,8 @@
 \
 \
 \
+[Up Next: Lesson 3 - Function Basics](function-basics.md)
 \
 \
 \
-[Go Back: Lessons](../../lessons/README.md)
+[Go Back: Lessons](../README.md)
