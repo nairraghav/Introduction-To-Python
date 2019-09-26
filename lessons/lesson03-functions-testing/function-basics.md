@@ -72,12 +72,14 @@ We don't want to follow this method below because if we ever want to add another
 def sum_two(a, b):
     print (a + b)
 
+sum_two(1, 2)           # prints 3
+
+
+
 def sum_three(a, b, c):
     print (a + b + c)
 
-
-sum_two(1, 2)    
-sum_three(1, 2, 3)
+sum_three(1, 2, 3)      # prints 6
 ```
 
 Instead, we can use args to pass in as many as we want
@@ -92,25 +94,106 @@ def print_sum(*args):
 print_sum(1, 2)
 print_sum(1, 2, 5, 10)
 print_sum(1, 2, 5, 10, 50, 100)
+
+
+# another way to call the variables with a list or tuple
+nums_to_sum = [1, 2, 5, 10, 50, 100]
+print_sum(*nums_to_sum)
 ```
 
+
 ### kwargs
+kwargs, also known as keyword arguments, is very similar to args except that it requires a key value pair for parameters
+that being passed in. When passing in the parameter, you will need to pass in the parameter name and it's value. Similar
+to how we can pass a list or a tuple for args, we can pass in a dictionary instead.
+
+```python
+def print_name_multiple(name, multiple):
+    print(name * multiple)
+    
+print_name_multiple(name="ron", multiple=2)
 
 
-### argparse
+# another way to call the variables with a dict
+params = {"name": "ron", "multiple": 2}
+print_name_multiple(**params)
+```
 
+Similar to args, we can also specify `**kwargs` in the function declaration
 
-### Environment Variables
+```python
+def print_name_multiple(**kwargs):
+    """ This function takes kwargs but to make it work, we need the following kwargs:
+    name - a string which represents a name
+    times - an int which determines how many times the name should be printed"""
+    name = kwargs.get('name', 'sally') # if we don't pass in name, it will default to sally
+    times = kwargs.get('times', 1) #if we don't pass in times, it will default to 1
+
+print_name_multiple()                       # prints sally
+print_name_multiple(name='ron')             # prints ron
+print_name_multiple(times=5)                # prints sallysallysallysallysally
+print_name_multiple(name='john', times=3)   # prints johnjohnjohn
+
+# similar to before, we can call with a dict
+params = {"name": "jimmy", "multiple": 2}
+print_name_multiple(**params)               # prints jimmyjimmy
+```
 
 
 ## Return
+As mentioned previously, a function also have an output which we can use. This process is called a `return`. Returns are
+generally used at the end of a function to return some output value but can also be used to exit out of a function early.
+We can convert our previous sum examples to return the value instead of printing. This allows the user to use that value
+for other needs. 
+
+```python
+def get_sum(*args):
+    total = 0
+    for arg in args:
+        total += arg
+    return total
+
+total = get_sum(1, 2, 3, 4, 5)
+print("The total is " + total)          # prints The total is 15
+```
 
 
 ## \_\_main__
+Within a python script that has multiple functions, we can run them by just calling them but the correct way is to use
+the main function. Main is where we can determine the starting point of the code. This helps keep with organization and
+readability. Refer to the example below to check out the syntax:
+
+```python
+def get_sum(*args):
+    total = 0
+    for arg in args:
+        total += arg
+    return total
+    
+if __name__ == '__main__':
+    get_sum(1, 2, 3)
+```
 
 
 ## Recursion
+Recursion is the process in which a function calls itself. Recursion can be a programming powerful technique but similar
+to while loops, you want to be careful and make sure the code will return at some point. The way to think about recursion
+is to have a base case (which will return) and recursive cases which keep calling the function until the base case is
+eventually returned. We can follow an example below to see how we can use recursion to solve the fibonacci sequence.
 
+```python
+def fibonacci(n):
+    if n < 1:   # base case
+        return n
+    else:       # recursive case
+        return n + fibonacci(n-1)
+```
+
+Given a high enough n, this may throw an error because it will have called recursively too many times. Typically, 
+recursion is not always looked as the correct answer because calling the function over and over again takes up space
+and takes time. For certain problems, recursion is the correct answer especially since it provides a simple and neat
+way to write code. For example, in the case above, it's easy to tell because it works intuitively since we are constantly
+adding numbers and their predecessors.
 \
 \
 \

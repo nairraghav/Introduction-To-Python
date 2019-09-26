@@ -18,4 +18,4 @@
 \
 \
 \
-[Go Back: Lessons](../../lessons/README.md)
+[Go Back: Lessons](../README.md)

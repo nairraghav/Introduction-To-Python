@@ -2,7 +2,7 @@
 * Package & Module Basics
     * Local Modules
     * Local Packages
-        \_\_init__ 
+    * \_\_init__.py 
     * Imports
 * Input
     * User Input
@@ -11,6 +11,8 @@
         * .csv
         * .json
             * What is JSON
+    * argparse
+        * Environment Variables
 * Output
     * Printing
     * Logging 
@@ -24,4 +26,4 @@
 \
 \
 \
-[Go Back: Lessons](../../lessons/README.md)
+[Go Back: Lessons](../README.md)
