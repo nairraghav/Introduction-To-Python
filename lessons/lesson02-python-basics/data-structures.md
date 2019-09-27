@@ -111,6 +111,7 @@ collect multiples lists within a dictionary (or any other permutation of data st
 person = {'name': "King Arthur", 'enemies_defeated': ['Black Knight', 'Troll'],
           'knows_airspeed_velocity_of_an_unladen_swallow': True}
 ```
+
 \
 \
 \

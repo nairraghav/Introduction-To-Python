@@ -166,6 +166,7 @@ The key is understand when to use each which type of loop and what allows for it
 Generally, `for` loops are preferred for iterative needs because you will usually know how many times an iteration must
 be done, they are much more readable and there is typically less risk when it comes to having infinitely running loops
 as there is usually a well defined end.
+
 \
 \
 \

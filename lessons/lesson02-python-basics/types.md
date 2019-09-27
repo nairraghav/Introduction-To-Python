@@ -53,7 +53,8 @@ x = x - 9               # x has a value of 1
 x += 3                  # equivalent to x = x + 3 (x has a value of 4)
 
 x *= 2                  # equivalent to x = x * 2 (x has a value of 8)
-```  
+```
+
 \
 \
 \

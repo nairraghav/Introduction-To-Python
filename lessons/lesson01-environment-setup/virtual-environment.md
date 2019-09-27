@@ -36,6 +36,7 @@ To deactivate the virtual environment, you can just type:
 ```bash
 deactivate
 ```
+
 \
 \
 \

@@ -194,6 +194,7 @@ recursion is not always looked as the correct answer because calling the functio
 and takes time. For certain problems, recursion is the correct answer especially since it provides a simple and neat
 way to write code. For example, in the case above, it's easy to tell because it works intuitively since we are constantly
 adding numbers and their predecessors.
+
 \
 \
 \
@@ -202,4 +203,4 @@ adding numbers and their predecessors.
 \
 \
 \
-[Go Back: Lessons 2 - Python Basics](../README.md)
+[Go Back: Lessons 3 - Functions](README.md)

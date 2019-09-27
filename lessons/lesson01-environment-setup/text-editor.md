@@ -6,6 +6,7 @@ lot in Python, I would recommend getting [PyCharm](https://www.jetbrains.com/pyc
 Using an IDE (Integrated Development Environment) can provide to be more beneficial as the program will have shortcuts,
 visual cues, and suggestions to help improve productivity. While this can be beneficial, it is by no means a requirement.
 Certain text editors like the ones mentioned above can download plugins which can help in similar ways.
+
 \
 \
 \

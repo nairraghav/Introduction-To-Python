@@ -1,10 +1,10 @@
 # Packages, IO, & Exceptions
-* Package & Module Basics
+* [Package & Module Basics](package-module-basics.md)
     * Local Modules
     * Local Packages
     * \_\_init__.py 
     * Imports
-* Input
+* [Input](input.md)
     * User Input
     * Reading From Files
         * .txt
@@ -13,16 +13,18 @@
             * What is JSON
     * argparse
         * Environment Variables
-* Output
+* [Output](output.md)
     * Printing
     * Logging 
-* Exceptions
+* [Exceptions](exceptions.md)
     * Try/Except
     * Handling Exceptions
+
 \
 \
 \
-[Up Next: Lesson 6 - Package & Module Basics](package-module-basics.md)
+\
+[Up Next: Lesson 4 - Package & Module Basics](package-module-basics.md)
 \
 \
 \

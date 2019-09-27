@@ -10,6 +10,7 @@ pip install <package-name>
 ```bash
 pip uninstall <package-name>
 ```
+
 \
 \
 \
