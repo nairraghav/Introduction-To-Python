@@ -19,10 +19,6 @@ Lesson 2
 
 Lesson 3
 - [x] Function Basics
-- [ ] Pytest
-    - [ ] Unit Test / Coverage Example
-    - [ ] Functional Test Example
-    - [ ] Video Walkthrough
 
 Lesson 4
 - [ ] Package & Module Basics
@@ -31,18 +27,28 @@ Lesson 4
 - [ ] Exceptions
 
 Lesson 5
+- [ ] Pytest
+    - [X] Why Test
+    - [X] What Is Pytest
+        - [X] Pytest Basics
+    - [ ] Unit Testing
+        - [X] Coverage
+        - [ ] Mocks
+    - [ ] Integration Testing
+    - [X] Unit Test / Coverage Example
+    - [ ] Functional Test Example
+    - [ ] Video Walkthrough
+
+Lesson 6
 - [ ] Classes
 - [ ] Inheritance
 
-Lesson 6
+Lesson 7
 - [ ] PostgreSQL
 - [ ] Mongo
 - [ ] ORM
 
-Lesson 7
+Lesson 8
 - [ ] REST
 - [ ] Requests
 - [ ] Flask
-
-Lesson 8
-- [ ] Django

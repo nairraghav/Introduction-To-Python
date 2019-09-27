@@ -1,4 +1,4 @@
-# Functions & Testing    
+# Functions    
 * [Function Basics](function-basics.md)
     * Docstring
     * Parameters
@@ -7,12 +7,6 @@
     * Return
     * \_\_main__
     * Recursion
-* [Pytest](pytest.md)
-    * Why Test?
-    * Unit Tests
-        * Coverage
-        * Mocks
-    * Integration Tests
 \
 \
 \

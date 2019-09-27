@@ -170,7 +170,7 @@ as there is usually a well defined end.
 \
 \
 \
-[Up Next: Lesson 3 - Functions & Testing](../lesson03-functions-testing/README.md)
+[Up Next: Lesson 3 - Functions](../lesson03-functions/README.md)
 \
 \
 \

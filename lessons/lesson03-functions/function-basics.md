@@ -198,8 +198,8 @@ adding numbers and their predecessors.
 \
 \
 \
-[Up Next: Lesson 3 - Pytest](pytest.md)
+[Up Next: Lesson 4 - Packages, Input/Output, & Exceptions](../lesson04-packages-io-exceptions/README.md)
 \
 \
 \
-[Go Back: Lessons 3 - Function Basics](README.md)
+[Go Back: Lessons 2 - Python Basics](../README.md)
