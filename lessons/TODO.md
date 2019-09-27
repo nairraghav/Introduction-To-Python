@@ -35,9 +35,10 @@ Lesson 5
         - [X] Coverage
         - [ ] Mocks
     - [ ] Integration Testing
-    - [X] Unit Test / Coverage Example
-    - [ ] Functional Test Example
-    - [ ] Video Walkthrough
+    - Testing Example
+        - [X] Unit Test / Coverage Example
+        - [ ] Functional Test Example
+        - [ ] Video Walkthrough
 
 Lesson 6
 - [ ] Classes

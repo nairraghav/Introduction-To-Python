@@ -22,7 +22,7 @@
 \
 \
 \
-\
+[Up Next: Lesson 6 - Package & Module Basics](package-module-basics.md)
 \
 \
 \

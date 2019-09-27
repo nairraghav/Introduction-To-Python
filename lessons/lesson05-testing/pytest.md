@@ -108,8 +108,8 @@ For a more thorough walkthrough of how the test code and coverage works, check o
 \
 \
 \
-[Up Next: Lesson 6 - Object Oriented Programming](../lesson06-object-oriented-programming/README.md)
+[Up Next: Lesson 5 - Testing Example](testing-example/README.md)
 \
 \
 \
-[Go Back: Lessons 3 - Functions](../lesson03-functions/README.md)
+[Go Back: Lessons 5 - Testing](README.md)
