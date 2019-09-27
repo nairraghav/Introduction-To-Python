@@ -2,7 +2,7 @@
 * [Package & Module Basics](package-module-basics.md)
     * Local Modules
     * Local Packages
-    * \_\_init__.py 
+        * \_\_init__.py 
     * Imports
 * [Input](input.md)
     * User Input
