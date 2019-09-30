@@ -59,7 +59,11 @@ sm_pack.do_something_else()
 
 ## Setting Up Imports
 When importing files locally, you may run into import issues depending on where you run the code from. Typically, you want
-to organize your code such that you can 
+to organize your code such that you can run everything from a root directory. This means that all your imports should be
+relative to that root directory. Take a look at our [testing example](../lesson05-testing/testing-example) to see how
+this is done! Things are organized so that you run everything within the `testing-example` directory, look at the imports
+within the files in src and the test directories.
+
 \
 \
 \
