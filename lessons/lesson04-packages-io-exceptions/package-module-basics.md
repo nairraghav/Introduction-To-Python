@@ -57,6 +57,9 @@ long.do_something()
 sm_pack.do_something_else()
 ```
 
+## Setting Up Imports
+When importing files locally, you may run into import issues depending on where you run the code from. Typically, you want
+to organize your code such that you can 
 \
 \
 \
