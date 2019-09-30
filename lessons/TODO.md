@@ -21,8 +21,15 @@ Lesson 3
 - [x] Function Basics
 
 Lesson 4
-- [ ] Package & Module Basics
+- [X] Package & Module Basics
 - [ ] Input
+    - [X] User Input
+    - [ ] Reading From Files
+        - [ ] Text
+        - [ ] CSV
+        - [ ] JSON
+    - [ ] Input Arguments
+        - [ ] argparse
 - [ ] Output
 - [ ] Exceptions
 
