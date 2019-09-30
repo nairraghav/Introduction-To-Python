@@ -1,7 +1,7 @@
 # Installing Python
 
 ## Windows
-![you-chose-poorly](https://i.pinimg.com/originals/5a/42/97/5a4297bac22f1fa0ef13d5ec1d67b366.jpg)
+![you-chose-poorly](../assets/lesson1-you-choose-poorly.jpg)
 
 
 ## Mac

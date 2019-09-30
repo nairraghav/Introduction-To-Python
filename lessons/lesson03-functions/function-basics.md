@@ -37,7 +37,7 @@ In the example below, when calling the StormCastle function, PyCharm shows the d
 are and their descriptions. There are more settings that you can set within the IDE in terms of what format to follow
 for doc strings. Typically, it is good behavior to describe what the function does (if it's non-obvious), what parameters
 it requires, and what it returns (covered below!)
-![pycharm-example](https://i.stack.imgur.com/0Kc6e.png)
+![pycharm-example](../assets/lesson3-pycharm-example.png)
 
 ## Parameters
 Parameters are the variables that are accepted by functions in the parenthesis of the declaration. Some functions may
