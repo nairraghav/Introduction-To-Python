@@ -55,7 +55,8 @@ Let's take a look at some examples!
 ### Text
 The most simple file we may try to read from is a text file, typically ending in `.txt`. This file generally only contains
 characters and strings, and thus isn't very useful in terms of data that it can hold. But it may hold some string value
-that we may want to pull up. Given that there is a file named `hello.txt`, we will try to read from it.
+that we may want to pull up. Given that there is a file named `hello.txt`, we will try to read from it. We can use the
+`filelines` method to get all the lines in the file into a list.
 
 hello.txt (Sample Text File)
 ```text
@@ -91,8 +92,38 @@ has been run.
 
 
 ### CSV
+A CSV is a file format which stands for `Comma-Separated Values`. Each line in the file is text that is delimited by
+commas. Typically, CSVs are a common way to store data, typically pulled from some spreadsheet or database. They are 
+commonly used by Data Scientists/Analysts for Visualization. 
 
+data.csv (Sample CSV File)
+```text
+id, name, country, job
+1, Ron, USA, Software Engineer
+2, Alice, Bolivia, CEO
+3, Oscar, Canada, Sales Associate
+```
 
+Parsing A CSV
+```python
+import csv # note we will need to import the csv library
+
+with open('data.csv') as data_csv_file:
+    csv_reader = csv.reader(data_csv_file, delimiter=',') # CSVs typically use ',' as a delimiter
+    line_count = 0
+    for row in csv_reader:
+        if line_count == 0:
+            printf("The headers are {row}")                 # The headers are [id, name, country, job]
+        else:
+            printf("{row[0]} is a {row[2]} from {row[1]}")  # sample: Ron is a Software Engineer from USA
+```
+
+As you can see, we use the `reader` function within the `csv` library to read the file and then go through row by row.
+We note the first row as the headers and then proceed from there. The way it works is that each row is then used to
+populate a list (in our case called row). We can use the indices within row to get the appropriate details. We can also
+use our previously covered data structures to store this data if needed.
+
+ 
 ### JSON
 
 
