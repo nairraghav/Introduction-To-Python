@@ -21,9 +21,9 @@ Lesson 3
 - [x] Function Basics
 
 Lesson 4
-- [X] Package & Module Basics
+- [x] Package & Module Basics
 - [ ] Input
-    - [X] User Input
+    - [x] User Input
     - [ ] Reading From Files
         - [ ] Text
         - [ ] CSV
@@ -35,15 +35,15 @@ Lesson 4
 
 Lesson 5
 - [ ] Pytest
-    - [X] Why Test
-    - [X] What Is Pytest
-        - [X] Pytest Basics
+    - [x] Why Test
+    - [x] What Is Pytest
+        - [x] Pytest Basics
     - [ ] Unit Testing
-        - [X] Coverage
+        - [x] Coverage
         - [ ] Mocks
     - [ ] Integration Testing
     - Testing Example
-        - [X] Unit Test / Coverage Example
+        - [x] Unit Test / Coverage Example
         - [ ] Functional Test Example
         - [ ] Video Walkthrough
 

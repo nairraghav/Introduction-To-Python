@@ -8,23 +8,28 @@ Similarly, you may have another file, `get_info.py`, which does other things lik
 name to other functions! In this section, let's take a closer look on how we can use libraries that others have written 
 and what we have created ourselves.
 
+
 ## Modules
 A module is a single python file that can be imported. For example, when we want to use `get_info.py` methods within our
 `hello.py` file, you want to import that module. The import section below will show how we can do that!
+
 
 ## Packages
 A package is a directory of modules. A package gives us the opportunity to keep code organized. Packages come in handy 
 so we can keep modules in one area. For example, we may have a package called `user` which has the modules `get`,
 `create`, `delete`. 
 
+
 ### \_\_init__.py
 To create a Python package, you must have a file within the directory (and all subdirectories of said package) called
 `__init__.py`. This file just has to exist, we don't need to put any information within it, nice and easy!
+
 
 ## Imports
 First and foremost, after a specific file is written, you will need to start the file you want to use that behavior in
 with some imports. The `import` keyword is used to pull in modules and packages. If we have the file in the same directory,
 you can import it like the following:
+
 
 ### Import Module 
 ```python
@@ -44,6 +49,7 @@ found_user = user.get.get_user(created_user.id)
 ```
 Typically, it is good behavior to only import modules that we are going to use. We do not want to import entire packages
 if we are not going to use them. This helps keep things neat and tidy.
+
 
 ### Import Aliases
 Sometimes, we may deal with packages that are not named optimally or are just too long. To remedy this, during the import,

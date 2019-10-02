@@ -50,8 +50,8 @@ x[2]                        # Error: Cannot access this index since it doesn't e
 ```
 
 ## Tuple
-A `tuple` is very similar to a list except that it is immutable. Immutable means that it cannot be change. Once a `tuple`
-has it's items set, we are not able to modify them by index. Tuples are also very similar to lists when it comes to
+A `tuple` is very similar to a list except that it is immutable. Immutable means that it cannot be changed. Once a `tuple`
+has its items set, we are not able to modify them by index. Tuples are also very similar to lists when it comes to
 creating them. Let's take a look at how we can create a `tuple`!
 
 ```python
@@ -71,7 +71,7 @@ that your data structure is going to change, use a list.
 ## Set
 A `set` is very similar to a list except that it cannot contain any duplicate items. It is also unordered so that when
 adding a new element, there is no index that it retains which the user controls. These several features (or lack thereof)
-are usually the only reasons why  someone would use a set over a list. We'll go over how to create a list and add to it:
+are usually the only reasons why  someone would use a set over a list. We'll go over how to create a set and add to it:
 
 ```python
 x = set()                   # create the set

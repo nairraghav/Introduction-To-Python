@@ -8,7 +8,7 @@ Within the Python Lessons curriculum, we go through various topics starting from
 way up to using databases and web application frameworks to create backend applications.
 
 In the Optional Non-Python Lessons curriculum, I have chosen specific topics to discuss which I have found to be relevant
-in my experience as a Software Engineer and will continue to add to, if appropriate.
+in my experience as a Software Engineer and will continue to add to them, as appropriate.
 
 
 # Goals

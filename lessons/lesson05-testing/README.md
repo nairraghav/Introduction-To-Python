@@ -8,7 +8,6 @@
         * Mocks
     * Functional / Integration Tests
 * [Testing Example](testing-example)
-* [Testing Walkthrough]()
 
 \
 \

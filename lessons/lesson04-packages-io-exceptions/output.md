@@ -3,7 +3,7 @@
 \
 \
 \
-[Up Next: Lesson 4 - Exception](exceptions.md)
+[Up Next: Lesson 4 - Exceptions](exceptions.md)
 \
 \
 \
