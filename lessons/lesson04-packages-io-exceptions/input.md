@@ -58,13 +58,14 @@ characters and strings, and thus isn't very useful in terms of data that it can 
 that we may want to pull up. Given that there is a file named `hello.txt`, we will try to read from it. We can use the
 `filelines` method to get all the lines in the file into a list.
 
-hello.txt (Sample Text File)
+`hello.txt` (Sample Text File)
 ```text
 This is a text file
 I am the second line
 There are three lines total
 ``` 
 
+#### Parsing A Text File
 Simple Way To Read From A File
 ```python
 f = open('hello.txt', 'r')  # The r here represents that we are in read only mode
@@ -96,7 +97,7 @@ A CSV is a file format which stands for `Comma-Separated Values`. Each line in t
 commas. Typically, CSVs are a common way to store data, typically pulled from some spreadsheet or database. They are 
 commonly used by Data Scientists/Analysts for Visualization. 
 
-data.csv (Sample CSV File)
+`data.csv` (Sample CSV File)
 ```text
 id, name, country, job
 1, Ron, USA, Software Engineer
@@ -104,11 +105,11 @@ id, name, country, job
 3, Oscar, Canada, Sales Associate
 ```
 
-Parsing A CSV
+#### Parsing A CSV File
 ```python
 import csv # note we will need to import the csv library
 
-with open('data.csv') as data_csv_file:
+with open('data.csv', 'r') as data_csv_file:
     csv_reader = csv.reader(data_csv_file, delimiter=',') # CSVs typically use ',' as a delimiter
     line_count = 0
     for row in csv_reader:
@@ -125,6 +126,48 @@ use our previously covered data structures to store this data if needed.
 
  
 ### JSON
+JSON, JavaScript Object Notation, is an open-standard format that uses easily readable text to create data objects which
+consist of key/value pairs. As you may suspect, this works VERY similar to how maps function. 
+
+`person.json` (Sample JSON File)
+```json
+{
+  "people": [
+    {
+      "name": "Ron",
+      "occupation": "Software Engineer",
+      "hobbies": [
+        "programming",
+        "eating",
+        "badminton"
+      ]
+    },
+    {
+      "name": "Sally",
+      "occupation": "Accountant",
+      "hobbies": [
+        "sleeping",
+        "reading",
+        "writing",
+        "dancing"
+      ]
+    }
+  ]
+}
+``` 
+
+#### Parsing JSON
+```python
+import json                                     # we need to import the JSON library
+
+with open('person.json', 'r') as json_file:
+    json_data = json.dumps(json_file)
+    print(json_data["people"][0])               # prints the Ron person object
+    print(json_data["people"][1]["occupation"]) # prints "Accountant
+```
+
+As you can see, JSON is typically much easier to work with in comparison to the other formats that we saw. Due to its
+key/value format, we can see elements are easy to access if you are aware of the structure.
 
 
 ## Input Arguments
