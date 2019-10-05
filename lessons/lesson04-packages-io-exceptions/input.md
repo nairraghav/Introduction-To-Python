@@ -171,10 +171,37 @@ key/value format, we can see elements are easy to access if you are aware of the
 
 
 ## Input Arguments
-
+In our previous examples, we see that we have hardcoded the filename within our script. This may be functional for us
+given our setup but this may not be the same setup for someone else. To avoid hardcoding things that we cannot guarantee,
+we can use arguments to specify files or any other information. The most popular library to do this is `argparse`.
 
 ### argparse
+The argparse library allows us to accept arguments when running the file, this can be used in many different ways. One
+common use is to specify a file as an argument so that the person executing the code is not necessarily forced to 
+mimic the same setup as the developer just to get the code working. Let's take a look at an example of this:
 
+In this case, we will assume that we are passing a file from our Downloads directory, assume that this is supposed to
+be a json file (let's use the `person.json` from above).
+
+```python
+# import the required libraries
+import argparse
+import json
+import sys
+
+
+def parse_arguments(args):
+    """
+    This function takes in the arguments provided when calling the function
+    and returns them to be used in the rest of the code
+    
+    :param args: These arguments are what's passed in when calling the function
+
+    :returns Returns the variables is an easily readable way
+    """
+    
+
+```
 
 \
 \
