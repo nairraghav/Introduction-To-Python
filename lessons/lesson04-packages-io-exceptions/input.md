@@ -187,10 +187,9 @@ be a json file (let's use the `person.json` from above).
 # import the required libraries
 import argparse
 import json
-import sys
 
 
-def parse_arguments(args):
+def parse_arguments():
     """
     This function takes in the arguments provided when calling the function
     and returns them to be used in the rest of the code
@@ -200,7 +199,18 @@ def parse_arguments(args):
     :returns Returns the variables is an easily readable way
     """
     
+    parser = argparse.ArgumentParser(description='Parsing arguments for script')
+    parser.add_argument('-f', '--file', default='filename.ext', help='Indicates the path to the file')
+    return parser.parse_args()
 
+
+if __name__ == '__main__':
+    args = parse_arguments()
+    with open(args.file, 'r') as json_file:
+        people = json.loads(json_file.read())
+        
+        # interact with person json object
+        print(people[0]['name'])    # prints Ron (from example above)
 ```
 
 \
