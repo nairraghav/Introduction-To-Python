@@ -24,13 +24,20 @@ Lesson 4
 - [x] Package & Module Basics
 - [ ] Input
     - [x] User Input
-    - [ ] Reading From Files
-        - [ ] Text
-        - [ ] CSV
-        - [ ] JSON
-    - [ ] Input Arguments
-        - [ ] argparse
+    - [x] Reading From Files
+        - [x] Text
+        - [x] CSV
+        - [x] JSON
+    - [x] Input Arguments
+        - [x] argparse
 - [ ] Output
+    - [ ] Console
+    - [ ] Text
+    - [ ] CSV
+    - [ ] JSON
+- [ ] Logging
+    - [ ] Stream vs. File
+    - [ ] Severity Levels
 - [ ] Exceptions
 
 Lesson 5

@@ -114,9 +114,9 @@ with open('data.csv', 'r') as data_csv_file:
     line_count = 0
     for row in csv_reader:
         if line_count == 0:
-            printf("The headers are {row}")                 # The headers are [id, name, country, job]
+            print(f"The headers are {row}")                 # The headers are [id, name, country, job]
         else:
-            printf("{row[0]} is a {row[2]} from {row[1]}")  # sample: Ron is a Software Engineer from USA
+            print(f"{row[0]} is a {row[2]} from {row[1]}")  # sample: Ron is a Software Engineer from USA
 ```
 
 As you can see, we use the `reader` function within the `csv` library to read the file and then go through row by row.
@@ -129,7 +129,7 @@ use our previously covered data structures to store this data if needed.
 JSON, JavaScript Object Notation, is an open-standard format that uses easily readable text to create data objects which
 consist of key/value pairs. As you may suspect, this works VERY similar to how maps function. 
 
-`person.json` (Sample JSON File)
+`people.json` (Sample JSON File)
 ```json
 {
   "people": [
@@ -160,7 +160,7 @@ consist of key/value pairs. As you may suspect, this works VERY similar to how m
 ```python
 import json                                     # we need to import the JSON library
 
-with open('person.json', 'r') as json_file:
+with open('people.json', 'r') as json_file:
     json_data = json.dumps(json_file)
     print(json_data["people"][0])               # prints the Ron person object
     print(json_data["people"][1]["occupation"]) # prints "Accountant
@@ -181,8 +181,9 @@ common use is to specify a file as an argument so that the person executing the 
 mimic the same setup as the developer just to get the code working. Let's take a look at an example of this:
 
 In this case, we will assume that we are passing a file from our Downloads directory, assume that this is supposed to
-be a json file (let's use the `person.json` from above).
+be a json file (let's use the `people.json` from above).
 
+#### Script Example (parse_example.py)
 ```python
 # import the required libraries
 import argparse
@@ -200,6 +201,8 @@ def parse_arguments():
     """
     
     parser = argparse.ArgumentParser(description='Parsing arguments for script')
+    # for each argument, you typically want to give a short hand way to call and a longer way
+    # if possible, try to set a default and give a help string to show what that field represents
     parser.add_argument('-f', '--file', default='filename.ext', help='Indicates the path to the file')
     return parser.parse_args()
 
@@ -209,9 +212,25 @@ if __name__ == '__main__':
     with open(args.file, 'r') as json_file:
         people = json.loads(json_file.read())
         
-        # interact with person json object
+        # interact with people json object
         print(people[0]['name'])    # prints Ron (from example above)
 ```
+
+#### Running The Script
+```bash
+python parse_example.py -f folder_name/second_folder/people.json
+```
+
+or 
+
+```bash
+python parse_example.py --file another_folder/people.json
+```
+
+You can have multiple arguments set up that may be required to run a script, use your best judgement to give the power
+to  the script runner so that they won't need to specifically make changes to your code just to get it running. Always
+try to think about how you can make the experience the simplest to follow to get something functional. At the same time,
+don't go overboard! As is everything else, there is always a balance.
 
 \
 \
