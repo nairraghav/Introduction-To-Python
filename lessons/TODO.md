@@ -30,11 +30,11 @@ Lesson 4
         - [x] JSON
     - [x] Input Arguments
         - [x] argparse
-- [ ] Output
+- [x] Output
     - [x] Console
-    - [ ] Text
-    - [ ] CSV
-    - [ ] JSON
+    - [x] Text
+    - [x] CSV
+    - [x] JSON
 - [ ] Logging
     - [ ] Stream vs. File
     - [ ] Severity Levels
