@@ -1,6 +1,6 @@
 # Virtual Environment
-Virtual Environment is a tool that is used to isolate python programming environments to avoid having collisions when it
-comes to programmatic requirements. It is usually a good idea to have a separate virtual environment per project.
+Virtual Environment is a tool that is used to isolate Python programming environments to avoid having collisions when it
+comes to package requirements. It is usually a good idea to have a separate virtual environment per project.
 
 ## Installation
 Virtual Environment can be installed through pip:

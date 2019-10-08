@@ -89,9 +89,7 @@ be unique (value do not need to be). Dictionaries are very useful and perform we
 since you can look it up by the key value rather than an abstract index value. 
 
 ```python
-x = {}                      # Create the dictionary
-
-x[0] = True                 # {0: True}
+x = {0: True}               # Create the dictionary
 
 x['a'] = 'b'                # {0: True, 'a': 'b'}
 

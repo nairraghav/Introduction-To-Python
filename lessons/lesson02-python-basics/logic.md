@@ -1,10 +1,10 @@
 # Logic
-The basics of any program (python or not) is some basic logic that can be applied and worked upon to create simple to
-advanced programs. We will take a look at some of the basic logic flows.
+The basics of any program (Python or not) are some logical fundamentals that can be applied and worked upon to create
+a wide range of programs. We will take a look at some of the logic flows.
     
 ## If Statement
-An `if` statement evaluates an expression to `True` or `False`. If the result of the expression is `True`, we do
-something. We can also make it do something in the `False` scenario.
+An `if` statement evaluates an expression to `True` or `False`. If the result of the expression is `True`, we take some
+action. We can also make it do something in the `False` scenario.
 
 ```python
 x = 5
@@ -79,7 +79,7 @@ c is not a                          # This returns False since c and a point to 
 ### and
 `and` is a keyword is used to conjoin to expressions and return a value for their joint result. The result will only
 return `True` if the expressions being conjoined by the `and` are all `True` as well. If any of those individual
-expressions return `False`, the `and` instantly results in `False`. As a note, we can use parenthesis to more easily
+expressions return `False`, the `and` instantly results in `False`. As a note, we can use parentheses to more easily
 read our expressions.
 
 ```python
@@ -162,10 +162,10 @@ print(x)                            # This will print 5 since that is when x < 5
 ```
 
 In terms of pure functionality, you will generally be able to substitute `for` loops with `while` loops and vice versa.
-The key is understand when to use each which type of loop and what allows for it to be the most understandable.
-Generally, `for` loops are preferred for iterative needs because you will usually know how many times an iteration must
-be done, they are much more readable and there is typically less risk when it comes to having infinitely running loops
-as there is usually a well defined end.
+The key is to understand when to use each type of loop and what allows for it to be the most readable. Generally, `for`
+loops are preferred for iterative needs because you should know how many times an iteration must be done. They are also
+easier to understand and there is less risk to having infinitely running loops as `for` loops usually a well defined
+termination point.
 
 \
 \

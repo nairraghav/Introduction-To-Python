@@ -5,9 +5,8 @@
 
 
 ## Mac
-Lucky for you, Mac OSX (10.8+) has Python installed (yay!) but it is Python2 (womp womp). To download/install Python3,
-refer to the this helpful [document](https://docs.python-guide.org/starting/install3/osx/). I have listed the steps below
-for convenience:
+Lucky for you, Mac OSX (10.8+) has Python installed but it is Python2. To download/install Python3, refer to the this
+helpful [document](https://docs.python-guide.org/starting/install3/osx/). I have listed the steps below for convenience:
 * Open a Terminal
     * Open Spotlight (command + space)
     * Type in Terminal and hit Enter
@@ -24,7 +23,7 @@ for convenience:
             * ```bash
                 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
               ```
-* Install python
+* Install Python
     * ```bash
         brew install python
       ```

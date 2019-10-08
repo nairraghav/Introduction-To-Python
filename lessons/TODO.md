@@ -31,7 +31,7 @@ Lesson 4
     - [x] Input Arguments
         - [x] argparse
 - [ ] Output
-    - [ ] Console
+    - [x] Console
     - [ ] Text
     - [ ] CSV
     - [ ] JSON

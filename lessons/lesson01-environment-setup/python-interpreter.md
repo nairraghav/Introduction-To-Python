@@ -12,8 +12,8 @@ Type "help", "copyright", "credits" or "license" for more information.
 ```
 
 Once the interpreter launches, you can see that it prints out a bunch of information showing
-details such as python version `Python 3.7.0` and other details. Once you are in the interpreter,
-you can start running python commands and it will print out a response after (if there is one)
+details such as Python version `Python 3.7.0` and other details. Once you are in the interpreter,
+you can start running Python commands and it will print out a response after (if there is one)
 
 ```bash
 >>> x = 5       # run a command to set 'x' equal to the value 5 

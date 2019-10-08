@@ -1,5 +1,5 @@
-# Types
-As seen in the previous topic, there are types in Python. We initially looked at an `int` and
+# Data Types
+As seen in the previous topic, there are data types in Python. We initially looked at an `int` and
 a `string`. We will discuss those and a couple others below.
 
 
@@ -22,7 +22,7 @@ represents `True`.
 
 ## String
 As seen before, a `string` represents 1 or more text characters that are wrapped with quotes. These
-quotes can be single `'` or double `"`, but which ever is used to start the string, must also
+quotes can be single `'` or double `"`, but the one that is used to start the string, must also
 end the string.
 
 ```python
