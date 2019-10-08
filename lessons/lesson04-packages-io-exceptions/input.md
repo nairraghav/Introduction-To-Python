@@ -161,7 +161,7 @@ consist of key/value pairs. As you may suspect, this works VERY similar to how m
 import json                                     # we need to import the JSON library
 
 with open('people.json', 'r') as json_file:
-    json_data = json.dumps(json_file)
+    json_data = json.loads(json_file.read())
     print(json_data["people"][0])               # prints the Ron person object
     print(json_data["people"][1]["occupation"]) # prints "Accountant
 ```
@@ -169,6 +169,7 @@ with open('people.json', 'r') as json_file:
 As you can see, JSON is typically much easier to work with in comparison to the other formats that we saw. Due to its
 key/value format, we can see elements are easy to access if you are aware of the structure.
 
+There is also a `json.loads` function which works if the input is not a file but a `string`.
 
 ## Input Arguments
 In our previous examples, we see that we have hardcoded the filename within our script. This may be functional for us
@@ -182,8 +183,8 @@ mimic the same setup as the developer just to get the code working. Let's take a
 
 In this case, we will assume that we are passing a file from our Downloads directory, assume that this is supposed to
 be a json file (let's use the `people.json` from above).
-
-#### Script Example (parse_example.py)
+ 
+`parse_example.py`
 ```python
 # import the required libraries
 import argparse
