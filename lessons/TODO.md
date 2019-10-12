@@ -35,10 +35,15 @@ Lesson 4
     - [x] Text
     - [x] CSV
     - [x] JSON
-- [ ] Logging
-    - [ ] Stream vs. File
-    - [ ] Severity Levels
+- [x] Logging
+    - [x] Stream vs. File
+    - [x] Severity Levels
+    - [x] Example
 - [ ] Exceptions
+    - [x] Common Errors
+    - [x] Handling Errors
+    - [x] Raising Errors
+    - [x] Creating An Error
 
 Lesson 5
 - [ ] Pytest
