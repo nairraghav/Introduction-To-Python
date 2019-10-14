@@ -22,7 +22,7 @@ Lesson 3
 
 Lesson 4
 - [x] Package & Module Basics
-- [ ] Input
+- [x] Input
     - [x] User Input
     - [x] Reading From Files
         - [x] Text
@@ -56,7 +56,7 @@ Lesson 5
         - [x] Patch
         - [ ] MagicMock 
     - [ ] Integration Testing
-    - Testing Example
+    - [ ]Testing Example
         - [x] Unit Test / Coverage Example
         - [ ] Functional Test Example
         - [ ] Video Walkthrough
@@ -66,9 +66,14 @@ Lesson 6
 - [ ] Inheritance
 
 Lesson 7
-- [ ] PostgreSQL
-- [ ] Mongo
+- [ ] Databases
 - [ ] ORM
+    - [ ] Why Use An ORM
+- [ ] SQLAlchemy
+    - [ ] Setup / Installation
+    - [ ] Creating Models
+    - [ ] Database Basics (Create/Seed/Delete)
+    - [ ] CRUD
 
 Lesson 8
 - [ ] REST
