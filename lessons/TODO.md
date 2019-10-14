@@ -39,7 +39,7 @@ Lesson 4
     - [x] Stream vs. File
     - [x] Severity Levels
     - [x] Example
-- [ ] Exceptions
+- [x] Exceptions
     - [x] Common Errors
     - [x] Handling Errors
     - [x] Raising Errors
@@ -50,9 +50,11 @@ Lesson 5
     - [x] Why Test
     - [x] What Is Pytest
         - [x] Pytest Basics
-    - [ ] Unit Testing
+    - [x] Unit Testing
         - [x] Coverage
-        - [ ] Mocks
+    - [x] Mocks
+        - [x] Patch
+        - [ ] MagicMock 
     - [ ] Integration Testing
     - Testing Example
         - [x] Unit Test / Coverage Example

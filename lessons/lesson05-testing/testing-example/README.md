@@ -12,7 +12,26 @@ the services that a user would see.
 
 To get a good understanding of how things work, please start by looking at the source code to see what it does and some
 sample tests to see how we have gone about validating it. After getting a bit familiar with the code, check out the video
-walkthrough in this directory which will go deeper in
+walk-through in this directory which will go deeper in
+
+## Installing Example Requirements
+```bash
+cd testing-example
+pip install -r requirements.txt
+```
+
+Running Tests:
+```bash
+python -m pytest tests
+```
+
+Running Tests And Get Coverage:
+```bash
+python -m pytest tests --cov=src
+```
+
+For a more thorough walk-through of how the test code and coverage works, check out the video below!
+
 
 # Video Walkthrough
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
