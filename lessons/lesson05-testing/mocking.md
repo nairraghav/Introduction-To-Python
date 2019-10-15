@@ -6,6 +6,27 @@ functional / integration tests below. We can also write unit tests but we use so
 a way to test functions without having to test any other functions that may lay underneath. 
 
 
+## MagicMock
+Using MagicMock, we can mock things! For example, if we wanted to test something that interacts with a JSON, we can mock
+out a JSON without having to create one. This is done using `MagicMock`
+
+```python
+from mock import MagicMock
+
+def test_json_handling():
+    json_object = MagicMock()
+    # call some function with created mock
+    json_object.loads('{"key":"value"}')
+    
+    # we can now assert the mock was called
+    json_object.loads.assert_called_once()
+    # we can even assert what it was called with
+    json_object.loads.assert_called_with('{"key":"value"}')
+```
+
+This by itself may not seen as useful, so we can take this concept and apply it to `patching` functions.
+
+
 ## Patch
 In Python, we can mock functions. We are also given the power to return back certain data if te function is called. For
 example, we can create a mock for an existing function`get_number()` which can always return us the same number for
@@ -87,19 +108,6 @@ def test_module_method_four(mock_one, mock_two, mock_three):
     mock_two.assert_called_with(False)
     mock_three.assert_called_once()
     assert result == something_expected
-```
-
-
-## MagicMock
-Outside of mocking functions, we can also mock out objects! For example, if we wanted to test something that interacts
-with a JSON, we can mock out a JSON without having to create one. This is done using `MagicMock`
-
-```python
-from mock import MagicMock
-
-def test_json_handling():
-    json_object = MagicMock()
-    json_object
 ```
 
 \

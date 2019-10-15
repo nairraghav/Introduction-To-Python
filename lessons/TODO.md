@@ -54,7 +54,7 @@ Lesson 5
         - [x] Coverage
     - [x] Mocks
         - [x] Patch
-        - [ ] MagicMock 
+        - [x] MagicMock 
     - [ ] Integration Testing
     - [ ]Testing Example
         - [x] Unit Test / Coverage Example
