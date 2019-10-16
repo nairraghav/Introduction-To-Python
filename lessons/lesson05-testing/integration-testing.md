@@ -25,6 +25,15 @@ they may be fully in sync with how their individual features should behave holis
 by whomever is architecting the solution but it is everyone's responsibility to make sure that the whole product can
 function as a whole.
 
+## Writing Integration Tests
+When it comes to the implementation of the integration tests, they work just like unit tests. We still use pytest and
+the specifics of naming conventions and pytest benefits still apply. The only difference now is the type of tests we are
+writing. 
+
+The goal of an integration test should be to test overall functionality not just an individual function. So if your program
+takes in a file and outputs another file. Your integration test should have some sample input file and validate the output
+is created and maybe even the data inside it.
+
 \
 \
 \

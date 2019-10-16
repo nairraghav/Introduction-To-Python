@@ -55,18 +55,29 @@ Lesson 5
     - [x] Mocks
         - [x] Patch
         - [x] MagicMock 
-    - [ ] Integration Testing
+    - [x] Integration Testing
     - [ ]Testing Example
         - [x] Unit Test / Coverage Example
         - [ ] Functional Test Example
-        - [ ] Video Walkthrough
+        - [ ] Video Walk-Through
 
 Lesson 6
+- [ ] Intro To OOP
+    - [ ] Why Do We Use It
 - [ ] Classes
+    - [ ] Creating A Class
+        - [ ] \_\_init__
+        - [ ] self
+        - [ ] Attributes
 - [ ] Inheritance
+    - [ ] Parent & Child Classes
+    - [ ] Overriding
+    - [ ] super()
 
 Lesson 7
 - [ ] Databases
+    - [ ] Intro to DB
+    - [ ] Types of DB
 - [ ] ORM
     - [ ] Why Use An ORM
 - [ ] SQLAlchemy
@@ -77,5 +88,23 @@ Lesson 7
 
 Lesson 8
 - [ ] REST
+    - [ ] Create
+    - [ ] Read
+    - [ ] Update
+    - [ ] Delete
 - [ ] Requests
+    - [ ] Installation / Setup
+    - [ ] Request GET
+        - [ ] JSON Output
+    - [ ] Request PUT/POST/DELETE
+        - [ ] Passing In Data
 - [ ] Flask
+    - [ ] Installation / Setup
+    - [ ] Usage Basics
+        - [ ] Creating A Simple App
+        - [ ] Routes
+    - [ ] CRUD Endpoints
+    - [ ] Creating Front-End
+        - [ ] Jinja Templates
+
+- [ ] Congrats & Next Steps

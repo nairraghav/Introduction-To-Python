@@ -3,10 +3,10 @@
     * Why Test?
     * What Is Pytest
         * Pytest Basics
-    * Unit Tests
-        * Coverage
-        * Mocks
-    * Functional / Integration Tests
+* [Unit Tests](unit-testing-and-coverage.md)
+    * Coverage
+* [Mocking](mocking.md)
+* [Integration Tests](integration-testing.md)
 * [Testing Example](testing-example)
 
 \
