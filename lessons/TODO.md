@@ -56,7 +56,7 @@ Lesson 5
         - [x] Patch
         - [x] MagicMock 
     - [x] Integration Testing
-    - [ ]Testing Example
+    - [ ] Testing Example
         - [x] Unit Test / Coverage Example
         - [ ] Functional Test Example
         - [ ] Video Walk-Through
@@ -107,4 +107,4 @@ Lesson 8
     - [ ] Creating Front-End
         - [ ] Jinja Templates
 
-- [ ] Congrats & Next Steps
+- [x] Congrats & Next Steps

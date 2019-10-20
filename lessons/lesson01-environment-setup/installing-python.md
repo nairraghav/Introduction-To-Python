@@ -3,6 +3,9 @@
 ## Windows
 ![you-chose-poorly](../assets/lesson1-you-choose-poorly.jpg)
 
+You should be able to follow through simply with the installation directions specified [here](https://realpython.com/installing-python/#step-1-download-the-python-3-installer)
+
+
 
 ## Mac
 Lucky for you, Mac OSX (10.8+) has Python installed but it is Python2. To download/install Python3, refer to the this
