@@ -5,8 +5,6 @@ car has specific details about it that make it a car and it can perform certain 
 engine, wheels, a radio, air conditioning. These attributes can make up a car. A car can also have functions like stall,
 drive, turn, etc. You can write many different functions around a car.   
 
-## Why Do We Use Object Oriented Programming
-
 
 ## Pillars of OOP
 There are four pillars of object oriented programming
@@ -15,6 +13,22 @@ There are four pillars of object oriented programming
 - Inheritance
 - Polymorphism
 
+### Abstraction
+Abstraction is 
+
+### Encapsulation
+
+
+### Inheritance
+
+
+### Polymorphism
+
+
+## Classes
+
+
+## Inheritance
 
 \
 \
