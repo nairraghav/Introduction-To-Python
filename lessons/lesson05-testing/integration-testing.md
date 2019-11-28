@@ -10,12 +10,14 @@ When writing code, you may write the most perfect unit tests and they may ensure
 works perfectly as expected. It may not be until they start working together that you realize something has gone wrong.
 In the example below, both faucet and sink do their individual jobs. The faucet releases water and the sink is architecturally
 sound to collect water and displace it. Unfortunately, the two were not tested to work together. They may work individually
-but they fail as a whole. 
+but they fail as a whole.
+
 ![integration-test-fail](../assets/lesson5-unit-test-integration-test-fail.gif)
 
 
 Similar to the previous example, we can see that the door and lock would seem to pass their own individual tests. But
-combining them results in something that may not have been caught. 
+combining them results in something that may not have been caught.
+
 ![integration-test-fail](../assets/lesson5-unit-test-integration-test-fail-2.gif) 
 
 
