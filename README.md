@@ -10,6 +10,11 @@ way through using databases and web application frameworks to create application
 In the Optional Non-Python Lessons curriculum, I have chosen specific topics to discuss which I have found to be relevant
 in my experience as a Software Engineer and will continue to add to them, as appropriate.
 
+# How To Use
+The majority of these files are set up as .ipynb files which are IPython Notebooks, via the Jupyter library. Jupyter allows
+us to run Python code through this learning experience. [Lesson 1](lessons/lesson01-environment-setup/README.md) will
+teach you about how to set up Python and Jupyter so that you can use Jupyter for a more interactive learning experience.
+
 
 # Goals
 My goal with this repository is to help introduce programming and more specifically Python to anyone who is interested.
