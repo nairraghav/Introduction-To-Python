@@ -40,8 +40,8 @@ For a more thorough walk-through of how the test code and coverage works, check 
 \
 \
 \
-[Up Next: Lesson 6 - Object Oriented Programming](../../lesson06-object-oriented-programming/README.md)
+[Up Next: Lesson 6 - Object Oriented Programming](../../lesson06-object-oriented-programming/index.ipynb)
 \
 \
 \
-[Go Back: Lessons 5 - Testing](../README.md)
+[Go Back: Lessons 5 - Testing](../index.ipynb)
