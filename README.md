@@ -1,7 +1,7 @@
 # Introduction-To-Python
 The purpose of this repository is to go through the basics and fundamentals of Python with some examples and assignments.
 Within this repository, there are two different types of lessons:
-* [Python Lessons](lessons/README.md)
+* [Python Lessons](lessons/index.ipynb)
 * [Optional Non-Python Lessons](optional_lessons/README.md)
 
 Within the Python Lessons curriculum, we go through various topics starting with setting up a Python environment all the
@@ -12,7 +12,7 @@ in my experience as a Software Engineer and will continue to add to them, as app
 
 # How To Use
 The majority of these files are set up as .ipynb files which are IPython Notebooks, via the Jupyter library. Jupyter allows
-us to run Python code through this learning experience. [Lesson 1](lessons/lesson01-environment-setup/README.md) will
+us to run Python code through this learning experience. [Lesson 1](lessons/lesson01-environment-setup/index.ipynb) will
 teach you about how to set up Python and Jupyter so that you can use Jupyter for a more interactive learning experience.
 
 
