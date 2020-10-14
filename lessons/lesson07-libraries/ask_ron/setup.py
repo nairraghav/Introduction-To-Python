@@ -12,7 +12,7 @@ setuptools.setup(
     description="A basic 8 ball library that generates random output",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/nairraghav/ron-cipher",  # this should be your github url
+    url="https://github.com/nairraghav/Introduction-To-Python/tree/master/lessons/lesson07-libraries/ask_ron",  # this should be your github url
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
